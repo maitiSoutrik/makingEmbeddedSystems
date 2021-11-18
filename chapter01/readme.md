@@ -20,7 +20,7 @@ We won't be requiring the spray bottle and Hygrometer as we will be using a humi
 > Note : The light enables the fungi to grow in the upward direction. This results in longer stalks.
 
 ## High Level Block Diagram
-
+![Block Diagram](fruiting_chamber.png)
 ## Main Components
 
 MCU
