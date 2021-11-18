@@ -8,7 +8,7 @@
 # Assignment Submission
 
 ## Problem Statement
-> Fungi are important species on this planet. They have been shown to have a lot of medicinal benifits for humans. In the near future where people are growing their own food, they also have small sustainable mushroom farms to grow and preserve some delicious variants like oyster mushrooms, or medicinal variants like Lions mane and Reishi.
+> Fungi are important species on this planet. They have been shown to have a lot of medicinal benifits for humans. In the near future where people are growing their own food, they will also have small sustainable mushroom farms to grow and preserve some delicious variants like oyster mushrooms, or medicinal variants like Lions mane and Reishi.
 
 > Fungi are probably the easiest thing to grow if a few things are taken care of. The farm is very easy to set up.
 I found an easy to follow guide [here](https://learn.freshcap.com/growing/how-to-build-a-sgfc/).
