@@ -15,8 +15,9 @@ I found an easy to follow guide [here](https://learn.freshcap.com/growing/how-to
 We won't be requiring the spray bottle and Hygrometer as we will be using a humidifier and a humidity sensor to automate the climate inside the chamber.
 
 
-## Shotgun Chamber Climate Controller
+## Shotgun Fruiting Chamber Climate Controller
 > To have a good yeild even from a small setup, fresh air and moisture is key to the rate of growth of Fungi. The humidity sensor will measure the current humidity inside the chamber. The humidifier is turned on until the threshold humidity inside the chamber is reached. Turning the humidifer off triggers the fan & the LED lights to turn on which helps in fresh air exchange & providing light to the fungi. The idea is to simulate a cyclic rain and sunny climate which helps in faster rate of growth of the fungi.
+> The Boosterpack MKII would be used as a display to show the current humidity, temperature and status of the Fans and LEDs. We can also display the speed of the fan and the PWM signals being sent to drive the fan in another window of the display application.
 > Note : The light enables the fungi to grow in the upward direction. This results in longer stalks.
 
 ## High Level Block Diagram
