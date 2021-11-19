@@ -45,3 +45,4 @@ PWM Fan
 Power System
 - Portable power bank
 - [DC supply for fan](https://www.mouser.com/ProductDetail/TDK-Lambda/Z-U?qs=rEeOUHw6yBCFlIdRi%2FOw%2FA%3D%3D&mgh=1)
+- [IoT Power Relay](https://www.mouser.com/ProductDetail/474-COM-14236)
