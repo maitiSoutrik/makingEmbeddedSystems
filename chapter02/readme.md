@@ -14,7 +14,7 @@ for your final project)
     - Load a simple sounding template
     - Create a block diagram for this program, briefly explain why you chose the platform and template you did, be prepared to talk about this board in Live Class
 ## Assignment Submission
-Selected Platform : STM DISCO-F429ZI
-Selected Template : ADC_InternalChannels ( Used to read the raw temperature data from the sensors using ADC)
+- Selected Platform : STM DISCO-F429ZI
+- Selected Template : ADC_InternalChannels ( Used to read the raw temperature data from the sensors using ADC)
 The following shows the relationship between the hardware and the software components :
 ![Block Diagram](lesson2.2.png)
