@@ -18,7 +18,7 @@ The following is a block diagram of the final project from Lesson 2 :
 |SCREEN2        | Screen2        |             |           |READ_PWM   |            |RELEASED | PRESSED  |              |
 |GET_TEMP       | Temp_data      | READ_DATA   |           |           |            |         |          | GET_TEMP     |
 |GET_HUM        | Hum_data       | READ_DATA   |           |           |            |         |          | GET_HUM      |       
-|FAN_STATE      | Fan_on_off     |             |           |READ_PWM   |READ_STATUS |         |          | FAN_STATE    |
+|FAN_STATE      | Fan_on_off     |             |           |READ_PWM   |            |         |          | FAN_STATE    |
 |HUMD_STATE     | Humidf_on_off  |             |READ_STATUS|           |            |         |          | HUMD_STATE   |
 |LED_STATE      | led_on_off     |             |           |           |READ_STATUS |         |          | LED_STATE    |
 |FAN_PWM        | fan_pwm        |             |           |READ_PWM   |            |         |          | FAN_PWM      |
