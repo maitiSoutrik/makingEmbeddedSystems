@@ -3,15 +3,20 @@
 
 ![blockDiagram](lesson2.1.png)
 
-States, Actions , Events
 
 
 
+> State Machine as a Data Table for the Low Powered Display
 
-
-
-             
-| States      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| States        | Action         | Sensor      | Humidifier | Fan      | LED Matrix | Button 1| Button 2 | TimeOut      |
+|---------------|----------------|-------------|------------|----------|------------|---------|----------|--------------|
+|START          | Splash Screen  | READ_DATA   |READ_STATUS|READ_PWM   |READ_STATUS |         |          |              |
+|SCREEN1        | Screen1        | READ_DATA   |READ_STATUS|READ_PWM   |READ_STATUS |PRESSED  | RELEASED |              |
+|SCREEN2        | Screen2        |             |           |READ_PWM   |            |RELEASED | PRESSED  |              |
+|GET_TEMP       | Temp_data      | READ_DATA   |           |           |            |         |          | GET_TEMP     |
+|GET_HUM        | Hum_data       | READ_DATA   |           |           |            |         |          | GET_HUM      |       
+|FAN_STATE      | Fan_on_off     |             |           |READ_PWM   |READ_STATUS |         |          | FAN_STATE    |
+|HUMD_STATE     | Humidf_on_off  |             |READ_STATUS|           |            |         |          | HUMD_STATE   |
+|LED_STATE      | led_on_off     |             |           |           |READ_STATUS |         |          | LED_STATE    |
+|FAN_PWM        | fan_pwm        |             |           |READ_PWM   |            |         |          | FAN_PWM      |
+|SHUTDOWN       |                |             |           |           |            |         |          |              |
